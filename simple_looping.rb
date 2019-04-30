@@ -4,8 +4,7 @@ def loop_iterator(number_of_times)
 number_of_times = 0;
 loop do
   number_of_times = number_of_times + 1;
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  puts phrase
+  puts "Welcome to Flatiron School's Web Development Course!"
   if number_of_times == 7
     break
   end
